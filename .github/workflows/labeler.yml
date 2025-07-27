@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Auto Label PR
-        uses: actions/labeler@v4
+        uses: actions/labeler@v5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
